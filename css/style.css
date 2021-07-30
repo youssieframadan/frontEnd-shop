@@ -209,12 +209,13 @@ div.benefits ul li{
 
 div.top-products{
   background-color: rgb(56, 54, 54);
+  padding: 25px;
 }
 
 div.categories{
   display: flex;
   justify-content: space-between;
-  align-items:flex-end;
+  align-items:center;
 }
 div.categories h1{
   font-size: 26px;
@@ -514,4 +515,43 @@ div.features{
     margin-right:0;
     font-weight:600
   }
+}
+
+div.newsletter{
+  background-image: linear-gradient(rgba(0, 0, 0, 0.5),
+                       rgba(0, 0, 0, 0.5)), url("https://wallpaperaccess.com/full/344621.jpg");
+  background-position: center;
+  background-repeat: no-repeat;
+  background-size: cover;
+  position: relative;
+  height: 50vh;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  text-align: center;
+}
+div.newsletter h1{
+  font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+  font-weight: 800;
+  color: white;
+}
+div.newsletter-box{
+  padding: 25px;
+  text-align: center;
+  background-color: white;
+}
+
+div.newsletter-box input{
+  padding: 10px;
+  padding-left: 20px;
+  font-size: 18px;
+  width: 450px;
+  background-color: whitesmoke;
+  border: 0;
+}
+div.newsletter-box button{
+  padding: 12px;
+  padding-left: 15px;
+  padding-right: 15px;
+  border: 0;
 }
